@@ -1,3 +1,4 @@
+// Crear la colección "proyectos" con un esquema JSON
 db.createCollection("proyectos", {
     validator: {
         $jsonSchema: {
